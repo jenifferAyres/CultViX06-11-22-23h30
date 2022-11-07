@@ -10,8 +10,8 @@ function MainHome() {
             </nav>
             <header>
                 <div className='teste'>
-                    <h1>home</h1>
-                    <br></br><br></br><br></br>
+                    <h1></h1>
+                    <br /><br /><br />
                     </div>
             </header>
             <footer>

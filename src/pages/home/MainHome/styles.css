@@ -1,0 +1,8 @@
+.teste {
+    display: inline;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    background-color: #d3bcc3;
+    font-family:Arial, Helvetica, sans-serif;
+}

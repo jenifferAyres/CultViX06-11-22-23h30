@@ -1,0 +1,32 @@
+.container-header-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    height: 200px;
+
+    background-color: #1272dfce;
+    color: #ffffff;
+}
+.container-section-main {
+    padding: 150px;
+  
+}
+
+.section-one {
+    height: 300px;
+  
+}
+
+.section-two {
+    height: 400px;
+   
+    background-color: #b1b9c2;
+}
+
+.section-three {
+    height: 400px;
+    
+   
+}

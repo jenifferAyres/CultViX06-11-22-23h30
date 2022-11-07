@@ -1,0 +1,18 @@
+.footer-main-home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+    height: 130px;
+
+    background-color: #212529;
+}
+
+.footer-main-home p {
+    font-size: 1.6rem;
+    color: #ffffff;
+}

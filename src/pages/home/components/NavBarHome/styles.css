@@ -1,0 +1,24 @@
+.navbar-main-home {
+    display: flexbox;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+font-family: Arial, Helvetica, sans-serif;
+
+    top: 05;
+    right: 05;
+    left: 05;
+
+    height: 90px;
+
+    padding: 0 260px;
+
+    background-color: #5858df;
+}
+
+.navbar-main-home h1 {
+    font-size: 2rem;
+    color: #ffffff;
+display: inline-flex;
+}
+

@@ -22,15 +22,14 @@
     display: inline-flex;
 }
 
-.video {
-  position: relative;
+#video {
+  position: absolute;
   display: flexbox;
   flex-direction: column;
-  width: 40%;
   align-items: center;
   text-align: center;
-  right: 16%;
-  top: -90%;
+  left: 1%;
+  top: 11%;
   min-width: 0;
   word-wrap: break-word;  
   background-color: rgba(3, 2, 10, 0.301);
@@ -286,4 +285,12 @@
 .card-group > .card:not(:first-child) .card-footer {
     border-bottom-left-radius: 0;
   }
+
+  #maps{
+    position: absolute;
+    bottom: 1;
+    bottom: 45%;
+    left: 78%;
+  }
+  
 }

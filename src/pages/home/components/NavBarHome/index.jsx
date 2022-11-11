@@ -8,7 +8,7 @@ function NavBarHome() {
     const [input, setInput] = useState('centro de vitoria');
     const [lugar, lugar2, lugar3, lugar4, lugar5, lugar6, lugar7, lugar8, setEndereco, setEndereco2, setEndereco3, setEndereco4,
         setEndereco5, setEndereco6, setEndereco7, setEndereco8, contato,
-        contato2, contato3, contato4, contato5, contato6, contato7, contato8, local,] = useState({});
+        contato2, contato3, contato4, contato5, contato6, contato7, contato8, local,et] = useState({});
 
 
     function buscarLocal() {
@@ -20,6 +20,7 @@ function NavBarHome() {
         switch (sInput.toLocaleLowerCase()) {
             case "centro de vitoria":
                 alert("Tenho que preencher os dados ainda" + oTeste.CentroVitoria.BimboBar)
+                et(oTeste.CentroVitoria.BimboBar)
                 local(oTeste.CentroVitoria.BimboBar.local)
                 lugar(oTeste.CentroVitoria.BimboBar.Nome)
                 lugar2(oTeste.CentroVitoria.Chopperia.Nome)
@@ -168,15 +169,14 @@ function NavBarHome() {
                 <span>Contato:(27)3235-7253</span>
             </div>
 
-
             <div class="cardss">
 
-                <div class="card-header1">{local}</div>
+                <div class="card-header1"></div>
 
                 <div class="card-bodysaa">
 
                     <div className='lc1'>
-                        <h2>Centro De Vitória</h2>
+                        <h2>Centro de vitoria</h2>
                         <br/><br/>
                         <h2>Nome: Bimbo Bar e Restaurante</h2>
                         <h2> Rua: R. Sete de Setembro, 132 - Centro, Vitória - ES</h2>

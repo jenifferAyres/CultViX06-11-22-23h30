@@ -12,8 +12,8 @@
     height: 90px;
 
     padding: 0 260px;
-
-    background-color: #5858df;
+    opacity: 75%;
+    background-color: #096d43;
 }
 
 .navbar-main-home h1 {
@@ -65,11 +65,11 @@ top: 1%;
   width: 40%;
   align-items: center;
   text-align: center;
-  left: 75%;
+  left: 78%;
   top: 10%;
   min-width: 0;
   word-wrap: break-word;
-  background-color:transparent;
+  background-color:#045838;
   background-clip: border-box;
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 0.25rem;
@@ -98,53 +98,77 @@ top: 1%;
     position: absolute;
     width: 30%;
     height: 40%;
-    bottom: 18%;
+    bottom: 3%;
     left: 69%;
   }
   #inpt1{
     width: 50%;
-    background-color:silver
+    background-color:rgba(241, 241, 241, 0.61)
   }
   .main{
     position: absolute;
-    bottom: 10%;
-    left: 1%;
+    top: 15.8%;
+    right: 3%;
   }
   
 .txt1{
 
   position: absolute;
   text-align: center;
-  top: 82%;
-  background-color: #5858df;
-  width: 100%;
+  top: 78%;
+  background-color: #096d43;
+  opacity: 75%;
+  width: 67%;
+  height: 20%;
   display:block;
-  bottom:0%;
-  left: 0%;
+  left: 1%;
 }
 .m2{
   position: absolute;
-  bottom: 10%;
-  left: 33%;
+  top: 80%;
+  right: 75%;
 }
 .m3{
   position: absolute;
-  bottom: 10%;
-  left: 65%;
+  top: 80.2%;
+  right: 35%;
 }
 .m4{
   position: absolute;
-  bottom: 5%;
-  left: 1%;
+  top: 86%;
+  right: 79.3%;
 }
 .m5{
   position: absolute;
-  bottom: 5%;
-  left: 33%;
+  top: 86%;
+  right: 34.3%;
 }
 
 .m6{
   position: absolute;
-  bottom: 5%;
-  left: 65%;
+  top: 91%;
+  right: 71%;
+}
+
+.cardss {
+  position: absolute;
+  display: flexbox;
+  flex-direction: column;
+  font-size: smaller;
+  text-align: center;
+  overflow-x: scroll;
+  display: flex;
+  width: 30%;
+  height: 30%;
+  align-items: center;
+  text-align: center;
+  left: 70%;
+  scroll-margin: inherit;
+  top: 10%;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color:aliceblue;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
 }
